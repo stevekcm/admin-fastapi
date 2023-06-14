@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "admin-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Stephen Kwok <schunman@gmail.com>"]
+readme = "README.md"
+packages = [{include = "admin_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.97.0"
+uvicorn = {extras = ["standard"], version = "^0.22.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
